@@ -1,0 +1,9 @@
+npm install -g @vui/cli
+npm install -g @vui/cli --save
+
+
+
+vue create vue-project
+    > Defalut[3.x]
+    
+npm run serve -- -- port 3000

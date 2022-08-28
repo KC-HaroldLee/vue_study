@@ -1,0 +1,34 @@
+vue create vue-project
+    > Manually select features
+        > 프로젝트에 필요한 feature를 선택
+            (V) Baebel : ES6 버전 이상이나 타입스크립트로 코딩면 범용적인 ES5버전으로 자동 전환 지원
+            ( ) TypeScript : 타입스크립트 지원
+            ( ) Progressive Web App (PWA) Support : 웹앱 개발 지원
+            (V) Router : 라우터 처리를우위한 Vue-Router
+            (V) Vuex : Vue에서 상태 관리를위한 패키지
+            ( ) CSS Pre-processors : Saas, Lewss Stylius등 Css 작성을 위한 CSS전처리기
+            (V) Linter / Formatter : 자바스크립트 코딩 컨벤션
+            ( ) Unit Testing : 모카(Mocha)등 단위 테스트를 위한 플러그인
+            ( ) E2E Testing : E2E(End-to-End) 테스트로 통합테스트를 위한 플러그인
+
+        > 버전은 [3]
+
+        > Use history mode for router? (히스토리 버전)
+
+        > 코딩스타일(?)
+            ESLint with error prevention only
+            ESLint + Airbnb config
+            > ESLint + Standard config
+            ESLint + Prettier
+
+            (V) Lint on save - (Lint 적용 저장 시점에 하기 위해)
+            ( ) Lint and fix on commit
+
+        > Where do you prefer placing config for Babel, ESLint, etc.?
+            ( ) In dedicated config files
+            (V)In package.json
+
+        > Save this as a preset for future projects? Yes
+        > Save preset as: vue basic (002) 
+
+    이후 > vue  create vue-preset 로 프리셋 로드 가능

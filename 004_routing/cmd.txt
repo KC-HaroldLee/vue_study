@@ -1,0 +1,19 @@
+일단 프로젝트 만들고
+> vue add router
+> Use history mode for router? (Requires proper server setup for index fallback in production)
+(Y/n) Yes
+
+(완료후)
+> npm run serve
+
+(에러나서)
+> npm i -S vue-router@4
+https://stackoverflow.com/questions/67654479/error-cannot-find-module-vue-cli-service-generator-template-src-app-vue-with
+
+3) package.json 에서 vue 버전 변경
+   - Vue Router 4 는 Vue 3 이상부터 사용 가능
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.4",
+    "vue-router": "^4.0.1"
+  }
