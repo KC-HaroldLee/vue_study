@@ -28,6 +28,7 @@
     <router-link to="/rendering_v-on3">v-on3</router-link> |
     <router-link to="/computed_fullname">computed_fullname</router-link> |
     <router-link to="/watch_fullname">watch_fullname</router-link> |
+    <router-link to="/databinding_list_from_db">list_from_db</router-link> |
   </nav>
   <router-view/>
 </template>

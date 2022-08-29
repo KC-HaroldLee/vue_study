@@ -22,6 +22,7 @@ import RenderingVOn2 from '../views/Rendering_v-on2.vue'
 import RenderingVOn3 from '../views/Rendering_v-on3.vue'
 import ComputedFullname from '../views/Computed_fullname.vue'
 import WatchFullname from '../views/Watch_fullname.vue'
+import DataBindingListFromDB from '../views/DataBinding_list_from_db.vue'
 
 const routes = [
   {
@@ -146,6 +147,11 @@ const routes = [
     path: '/watch_fullName',
     name: 'Watch_FullName',
     component: WatchFullname
+  },
+  {
+    path: '/databinding_list_from_db',
+    name: 'DataBinding_List_from_db',
+    component: DataBindingListFromDB
   }
 ]
 
